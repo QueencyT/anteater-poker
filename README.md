@@ -11,7 +11,7 @@ Developed collaboratively by a six-member team, the project integrates network p
 
 Six-member team at the University of California, Irvine:
 
-- **Queency Tan** — GUI Development (Client & Server), Rendering Systems, and Code Integration
+- **Queency Tan** 
 - **Austin Nguyen**
 - **Mia Ness**
 - **Aman**
@@ -166,7 +166,6 @@ The application is organized into reusable C modules.
 | `lobby` | Manages multiplayer lobby functionality |
 | `bot` | Implements automated player decision-making |
 | `monte_carlo` | Provides simulation-based poker analysis |
-| `timer` | Supports gameplay timing functionality |
 
 ---
 
