@@ -18,6 +18,13 @@ Six-member team at the University of California, Irvine:
 - **Gurvin Singh**
 - **Naveen Islame**
 ---
+## Lobby Showcase 
+https://github.com/user-attachments/assets/9dc816eb-5ad8-4530-9742-6994c38f6e4f
+
+Custom multiplayer lobby features password-protected access, customizable usernames, and a waiting room that displays connected players before the game begins. 
+
+## Gameplay Showcase
+
 
 ## My Contributions
 
