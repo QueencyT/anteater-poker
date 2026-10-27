@@ -2,11 +2,49 @@
 
 ## Overview
 
-Anteater Poker is a multiplayer Texas Hold'em-inspired poker game developed in C, featuring a client-server architecture, TCP socket networking, and a graphical interface built with GTK3.
+Anteater Poker is a multiplayer Texas Hold'em-inspired poker game developed in C, featuring a client-server architecture, TCP socket networking, and graphical interfaces built with GTK3.
 
-The game allows multiple players to connect to a centralized server and compete in real-time poker matches. The server manages game logic, player actions, betting rounds, and shared game state, while graphical clients provide an interactive interface for gameplay.
+The game enables multiple players to connect to a centralized server and compete in real-time poker matches. The server manages game logic, betting rounds, player actions, and shared game state, while graphical clients provide an interactive gameplay experience. The game also introduces a custom Anteater wildcard mechanic and AI-controlled opponents with different decision-making strategies.
 
-The project also introduces a custom Anteater wildcard mechanic and AI-controlled opponents, combining network programming, graphical application development, and game-state management into a multiplayer application.
+Developed collaboratively by a six-member team, the project integrates network programming, graphical application development, and game-state management into a functional multiplayer application. 
+
+
+Six-member team at the University of California, Irvine:
+
+- **Queency Tan** — GUI Development (Client & Server), Rendering Systems, and Code Integration
+- **Austin Nguyen**
+- **Mia Ness**
+- **Aman**
+- **Gurvin Singh**
+- **Naveen Islame**
+---
+
+## My Contributions
+
+As a member of the six-person development team, I was primarily responsible for the graphical user interfaces and code integration.
+
+### Graphical User Interface Development
+
+I led the development of both the client-side and server-side graphical interfaces using GTK3, including the rendering components responsible for displaying and updating the game's visual elements.
+
+My responsibilities included:
+
+- Developing the client GUI for interactive poker gameplay.
+- Implementing the server GUI for game hosting and management.
+- Designing and implementing rendering components for cards, players, betting information, and game-state visualization.
+- Integrating graphical assets and interface elements into the application.
+- Connecting the graphical interfaces with the underlying gameplay and networking systems.
+
+### Code Integration
+
+I was also responsible for integrating code developed by different team members into a cohesive application.
+
+My responsibilities included:
+
+- Integrating independently developed modules into the main codebase.
+- Coordinating compatibility between the GUI, networking, and gameplay components.
+- Resolving integration conflicts and debugging issues between interconnected modules.
+- Supporting the integration and testing of the complete multiplayer application.
 
 ---
 
