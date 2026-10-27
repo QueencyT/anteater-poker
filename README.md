@@ -39,23 +39,27 @@ As a member of the six-person development team, I was primarily responsible for 
 - Resolving integration conflicts and debugging issues between interconnected modules.
 
 
+---
+
 ## Lobby Showcase 
 https://github.com/user-attachments/assets/9dc816eb-5ad8-4530-9742-6994c38f6e4f
 
 A custom multiplayer lobby featuring password-protected access, customizable usernames, and a waiting room that displays connected players before the game begins. 
-<br>
 
-</br>
+---
 
 ## Gameplay Showcase
+https://github.com/user-attachments/assets/3430ed9f-4267-4984-9786-c07f0e478519
 
+Anteater Poker allows players to compete in multiplayer Texas Hold'em matches against other players and AI-controlled opponents, featuring strategic betting, custom Anteater card mechanics, and real-time gameplay. The gameplay interface features a dynamically scaling poker table with interactive betting controls, player avatars, chip balances, community cards, and real-time game-state updates.
+
+---
 
 ## Server-Side Game State Monitor UI
 <img width="1280" height="763" alt="Image" src="https://github.com/user-attachments/assets/e56a2a83-5a63-4a94-8d6b-a156be13a8bc" />
 A custom server-side interface providing a real-time overview of the game state, displaying player information, chip balances, betting activity, community cards, and individual player hands.
-<br>
 
-</br>
+---
 
 ## Key Features
 
