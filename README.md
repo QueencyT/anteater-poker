@@ -4,12 +4,11 @@
 
 Anteater Poker is a multiplayer Texas Hold'em-inspired poker game developed in C, featuring a client-server architecture, TCP socket networking, and graphical interfaces built with GTK3.
 
-The game enables multiple players to connect to a centralized server and compete in real-time poker matches. The server manages game logic, betting rounds, player actions, and shared game state, while graphical clients provide an interactive gameplay experience. The game also introduces a custom Anteater wildcard mechanic and AI-controlled opponents with different decision-making strategies.
+The game enables multiple players to connect to a centralized server and compete in real-time poker matches. The server manages game logic, betting rounds, player actions, and shared game state, while graphical clients provide an interactive gameplay experience. The game also introduces a custom Anteater wildcard mechanic and AI-controlled opponents with different decision-making strategies. When in the hand, the anteater card acts as a wildcard. When among the community cards, it reveals all community cards and advances the game to its final round. 
 
 Developed collaboratively by a six-member team, the project integrates network programming, graphical application development, and game-state management into a functional multiplayer application. 
 
-
-Six-member team at the University of California, Irvine:
+**Team-Members:**
 
 - **Queency Tan** 
 - **Austin Nguyen**
@@ -18,42 +17,45 @@ Six-member team at the University of California, Irvine:
 - **Gurvin Singh**
 - **Naveen Islame**
 ---
-## Lobby Showcase 
-https://github.com/user-attachments/assets/9dc816eb-5ad8-4530-9742-6994c38f6e4f
-
-Custom multiplayer lobby features password-protected access, customizable usernames, and a waiting room that displays connected players before the game begins. 
-
-## Gameplay Showcase
-
-
 ## My Contributions
 
-As a member of the six-person development team, I was primarily responsible for the graphical user interfaces and code integration.
+As a member of the six-person development team, I was primarily responsible for GUI development, client-side networking, and system integration.
 
 ### Graphical User Interface Development
 
-I led the development of both the client-side and server-side graphical interfaces using GTK3, including the rendering components responsible for displaying and updating the game's visual elements.
+- Developed the GTK3 client-side interface for interactive multiplayer poker gameplay.
+- Designed and implemented the rendering modules and logic for cards, players, betting information, real-time game-state visualization, and responsive GUI scaling to dynamically adapt interface elements to different window sizes and screen resolutions.
 
-My responsibilities included:
+### Client-Side Networking
 
-- Developing the client GUI for interactive poker gameplay.
-- Implementing the server GUI for game hosting and management.
-- Designing and implementing rendering components for cards, players, betting information, and game-state visualization.
-- Integrating graphical assets and interface elements into the application.
-- Connecting the graphical interfaces with the underlying gameplay and networking systems.
+- Implemented TCP socket connections to establish communication between graphical clients and the multiplayer server.
+- Integrated socket communication with GTK application initialization and multiplayer lobby functionality.
+- Implemented connection error handling and resource cleanup.
 
 ### Code Integration
-
-I was also responsible for integrating code developed by different team members into a cohesive application.
-
-My responsibilities included:
 
 - Integrating independently developed modules into the main codebase.
 - Coordinating compatibility between the GUI, networking, and gameplay components.
 - Resolving integration conflicts and debugging issues between interconnected modules.
-- Supporting the integration of the complete multiplayer application.
 
----
+
+## Lobby Showcase 
+https://github.com/user-attachments/assets/9dc816eb-5ad8-4530-9742-6994c38f6e4f
+
+A custom multiplayer lobby featuring password-protected access, customizable usernames, and a waiting room that displays connected players before the game begins. 
+<br>
+
+</br>
+
+## Gameplay Showcase
+
+
+## Server-Side Game State Monitor UI
+<img width="1280" height="763" alt="Image" src="https://github.com/user-attachments/assets/e56a2a83-5a63-4a94-8d6b-a156be13a8bc" />
+A custom server-side interface providing a real-time overview of the game state, displaying player information, chip balances, betting activity, community cards, and individual player hands.
+<br>
+
+</br>
 
 ## Key Features
 
@@ -65,30 +67,6 @@ My responsibilities included:
 - **Custom Game Mechanics:** Introduces an Anteater wildcard with special behavior that modifies traditional Texas Hold'em gameplay.
 - **Interactive Lobby:** Supports player names, password-protected entry, and multiplayer game initialization.
 - **Betting and Turn Management:** Handles poker actions, betting rounds, and player turn progression.
-
----
-
-## Gameplay
-
-Anteater Poker follows a variation of Texas Hold'em in which players compete to form the strongest poker hand.
-
-Players connect to a hosted game, receive cards, and participate in betting rounds using actions such as:
-
-- **Fold:** Leave the current hand.
-- **Check:** Continue without placing an additional bet when permitted.
-- **Call:** Match the current bet.
-- **Bet:** Place a wager.
-- **Raise:** Increase the current bet.
-- **All-In:** Commit all remaining chips.
-
-### Custom Anteater Card
-
-The game introduces a special Anteater card that changes traditional gameplay:
-
-- **In a player's hand:** Acts as a wildcard.
-- **Among the community cards:** Replaces the community cards and advances the game to its final round.
-
-These mechanics introduce additional strategic considerations beyond standard Texas Hold'em.
 
 ---
 
