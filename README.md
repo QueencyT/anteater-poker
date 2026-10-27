@@ -44,7 +44,7 @@ My responsibilities included:
 - Integrating independently developed modules into the main codebase.
 - Coordinating compatibility between the GUI, networking, and gameplay components.
 - Resolving integration conflicts and debugging issues between interconnected modules.
-- Supporting the integration and testing of the complete multiplayer application.
+- Supporting the integration of the complete multiplayer application.
 
 ---
 
